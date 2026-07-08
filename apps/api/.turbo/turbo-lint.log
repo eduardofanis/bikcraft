@@ -1,0 +1,4 @@
+
+> @bikcraft/api@0.1.0 lint
+> eslint . --config ../../eslint.config.mjs
+

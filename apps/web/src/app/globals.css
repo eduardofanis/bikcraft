@@ -1,12 +1,6 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+@import "tailwindcss";
 
-:root {
+@theme {
   --color-primary: #eebb00;
   --color-primary-dark: #d4a800;
   --color-bg: #111111;
@@ -14,6 +8,14 @@
   --color-text: #ffffff;
   --color-text-muted: #b3b3b3;
   --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
