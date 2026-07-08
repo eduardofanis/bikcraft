@@ -1,23 +1,23 @@
 {
-  "name": "@bikcraft/api",
-  "version": "0.1.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "tsx watch src/server.ts",
-    "build": "tsc",
-    "start": "node dist/server.js",
-    "lint": "eslint . --config ../../eslint.config.mjs",
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@bikcraft/shared": "*",
-    "fastify": "^5.3.0",
-    "@fastify/cors": "^11.0.0"
-  },
-  "devDependencies": {
-    "@types/node": "^22.15.0",
-    "tsx": "^4.19.0",
-    "typescript": "^5.8.0"
-  }
+	"name": "@bikcraft/api",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "tsx watch src/server.ts",
+		"build": "tsc",
+		"start": "node dist/server.js",
+		"lint": "biome check --write .",
+		"typecheck": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@bikcraft/shared": "*",
+		"fastify": "^5.3.0",
+		"@fastify/cors": "^11.0.0"
+	},
+	"devDependencies": {
+		"@types/node": "^22.15.0",
+		"tsx": "^4.19.0",
+		"typescript": "^5.8.0"
+	}
 }

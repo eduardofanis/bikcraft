@@ -1,4 +1,5 @@
 
 > @bikcraft/shared@0.1.0 lint
-> eslint . --config ../../eslint.config.mjs
+> biome check --write .
 
+Checked 3 files in 10ms. No fixes applied.
