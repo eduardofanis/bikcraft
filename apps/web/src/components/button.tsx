@@ -6,7 +6,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const variantStyles = {
-	primary: "bg-gradient-to-b from-p1 to-p1 hover:to-p6 text-p5 active:bg-p3",
+	primary: "bg-gradient-to-b from-p1 to-p1-1 hover:to-p6 text-p5 active:bg-p3",
 	secondary: "bg-c10 text-c0 hover:bg-c9 active:bg-c8 text-c4",
 };
 

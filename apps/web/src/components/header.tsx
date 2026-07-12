@@ -5,6 +5,8 @@ const navLinks = [
 	{ href: "/bikes", label: "Bicicletas" },
 	{ href: "/insurance", label: "Seguros" },
 	{ href: "/contact", label: "Contato" },
+	{ href: "/cart", label: "Carrinho" },
+	{ href: "/account", label: "Conta" },
 ];
 
 export default function Header() {
@@ -15,7 +17,6 @@ export default function Header() {
           <Bikcraft className="h-8 w-auto  transition-colors fill-c0 hover:fill-c4" />
 				</Link>
 
-				<div className="flex gap-12 items-center">
 					<nav>
 						<ul className="flex gap-10">
 							{navLinks.map(({ href, label }) => (
@@ -30,17 +31,7 @@ export default function Header() {
 							))}
 						</ul>
 					</nav>
-
-					<div className="flex gap-6">
-						<Link href="/cart">
-							<IconesCart className="h-5 w-auto fill-c0 hover:fill-c4 transition-colors" />
-						</Link>
-						<Link href="/account">
-							<IconesUser className="h-5 w-auto fill-c0 hover:fill-c4 transition-colors" />
-						</Link>
-					</div>
 				</div>
-			</div>
 		</header>
 	);
 }
