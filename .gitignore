@@ -6,3 +6,8 @@ dist/
 .env.local
 .env.production
 turbo.log
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+apps/api/data/
